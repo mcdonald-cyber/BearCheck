@@ -1,0 +1,78 @@
+main {
+    margin-top: 60px;
+    
+  }
+  
+  main h1 {
+    margin: 0 10px;
+    text-align: center;
+    font-family: "Amatic SC", cursive;
+    font-size: 65px;
+  }
+  
+  main h2 {
+    margin: 18px 0 12px 0;
+    border-bottom: 1px solid #5c4f41;
+    font-family: "Special Elite", cursive;
+    font-size: 24px;
+  }
+    
+  main p {
+    font-family: "Roboto", sans-serif;
+    margin-top: 0;
+  }
+  
+  .group {
+    justify-content: center;
+    display: flex;
+    flex-direction: column
+    margin: 100px;
+  }
+  
+  .item {
+     flex: 1;
+    margin: 10px;
+  }
+ 
+  
+  .group img {
+    margin: 0 10px;
+    width: 50%;
+  }
+  
+  @media all and (min-width: 800px) {
+    section {
+      
+      padding: 0 10%;
+    }
+  
+    .group {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  
+  
+  form label {
+    display: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: black;
+    font-family: arial;
+  }
+  
+  form input [type="text"] {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 20px;;
+  }
+  
+  fieldset {
+      background-color: #4E342E;
+      width: 50%;
+  }
+  
+  input {
+    margin: 5px;
+  }
+  
